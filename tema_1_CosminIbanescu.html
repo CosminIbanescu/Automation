@@ -1,0 +1,60 @@
+<script>
+    /* tema pentru lectia 1 de programare */
+ 
+    // o variabila cu numele tau si sa fie afisata in consola
+    let numeleMeu = "Cosmin";
+    console.log(numeleMeu);
+
+    // o variabila cu varsta ta si sa fie afisata in consola
+    let varsta = 24;
+    console.log(varsta);
+
+    // o variabila cu hobby-urile tale (adaga minim 3) si sa fie afisat in consola al 2-lea hobby
+    let hobbies = ["cooking", "cycling", "reading economics news"];
+    console.log(hobbies[1]);
+
+    // o variabila cu starea civila si sa fie afisata in consola
+    let stareCivila = "necasatorit"; 
+    console.log("stareCivila " + stareCivila);
+
+    // creeaza apoi 2 variabile a si b cu valori numerice si afiseaza suma si produsul acestor numere
+    let a = 3;
+    let b = 5;
+    let sumaNumerelor = a+b;
+    let inmultireaNumerelor = a*b;
+    console.log("suma numerelor este ", sumaNumerelor + " iar inmultirea numerelor este", inmultireaNumerelor);
+    
+    //console.log("suma a+b este " + "a+b" + " iar produsul lor este " + a*b );
+// ? apare "a+b"
+
+    /*
+    o variabila cu numele caine care sa fie de tip obiect si sa contina urmatoarele date in interior:
+    nume caine
+    rasa
+    varsta
+    culoare
+    posibile nume (minim 3)
+    sexul
+    daca are pedigree
+    
+    sa se afiseze in consola varsta, sexul si al 3-lea posibil nume
+    
+    */
+
+    let caine = {
+        nume : "Rex",
+        rasa : "husky",
+        varsta : 1,
+        culoare : "negru",
+        sex : "Masculin",
+        pedigree : false,
+        numePosibile : ["T-Rex", "Husk", "Blacky"],
+    }
+
+    console.log("varsta " + caine.varsta + " an,","sex " + caine.sex, ", Nume posibil: " + caine.numePosibile[2]);
+
+
+    
+    
+    
+    </script>

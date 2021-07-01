@@ -1,0 +1,98 @@
+<script>
+
+// instructiune if - else
+
+a = 3; 
+b = 2;
+c = 5;
+
+if ( a > b && c > a) {
+//    console.log("a mai mare decat b si c mai mare decat a");
+} else { 
+//    console.log("numerele nu sunt egale");
+}
+
+// atribuire cu = si  egalitate cu == iar cu === verificare absoluta (suprema) 
+// cu === se verifica si tipul de date
+// cu == (int si string), se verifica doar valoarea variabilei nu si tipul de date
+
+// instructiunile se opresc la primul caz de adevar in cazul mai multor ifuri (if - else if - else)
+
+// instructiunea for, are un iterator i pentru numarare, i++
+
+    animale = ["pisica", "leu", "caprioara"];
+    for (i = 0; i < 3; i++) {
+//      console.log("Animal: " + animale[i]);
+    }  // acolada for
+
+
+
+    // functiile sunt metode, se creeaza si se apeleaza 
+
+/*
+function impartire(a, b) {
+    console.log("Impartirea e " + a/b);
+
+}
+
+impartire(4,2);
+*/
+
+/*  coment 
+function datePersonale(nume, varsta, angajat) {
+    let a;
+
+    if (angajat === true) {
+        a = "angajat";
+
+    } else {
+        a = "somer"
+    }
+
+    console.log(nume + " are varsta de " + varsta + " de ani si este " + a);
+
+}
+
+datePersonale("Radu", 30, true);
+datePersonale("Vlad", 29, false); 
+
+//functie anonima, salut, creata in obiectul masina 
+
+let masina = {
+    brand : "Audi",
+    model : "A4",
+    anFrabricatie : 2014,
+    inmatriculat : true,
+    extraoptiuni : ["AC", "servo-directie", "geamuri electrice"],
+    // array la extraoptiuni 
+    nrInmatriculare : "B47ABC",
+    // obiect in obiect pentru garaj 
+    garaj : {
+        suprafata : 16,
+        stradaGaraj :"Ion Creanga",
+        numarPropietate : 7,
+        ocupat: false
+
+    },
+    salut: function (){
+        console.log("Salut sunt masina ta");
+    }
+} 
+
+masina.salut();
+
+*/
+//coment 
+
+//x.length 
+function afisareMasini(x){
+    for (i=0; i<x.length ; i++) {
+        console.log(x[i]);
+    }
+
+}
+
+afisareMasini =(["bmw", "audi", "seat"]) ;
+afisareMasini =(["bmw", "audi", "seat", "Dacia"]) ;
+
+</script>
