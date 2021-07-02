@@ -1,4 +1,4 @@
-// id cu #, class cu .  , titlu cu $(‘[title=”nume titlu”]’) si atribute:  $(‘[atribut element]’);
+
 /*
 describe('https://altex.ro/', () => {
  
@@ -13,7 +13,6 @@ describe('https://altex.ro/', () => {
     it('should open login', async () => {
         const openLoginButton = await $('//*[@id="__next"]/div[1]/div[1]/div/div/div[2]/div[3]/div[1]/a');  
         await openLoginButton.click();
-
     });
 
     it('should login', async () => {
@@ -49,7 +48,5 @@ describe('https://altex.ro/', () => {
     });
 
 
-
-//inchidere describe
 });
 */

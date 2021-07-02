@@ -5,15 +5,13 @@ describe('demoblaze.com', () => {
      
     it('should open website', async () => {
         
-        await browser.url('https://www.demoblaze.com/'); 
-               
+        await browser.url('https://www.demoblaze.com/');      
     });
 
     
     it('should open login', async () => {
         const pageLoginButton = await $('#login2');  
         await pageLoginButton.click();
-
     });
 
     it('should login', async () => {
@@ -39,14 +37,8 @@ describe('demoblaze.com', () => {
 
         const cart = await $('#cartur');
         cart.click(); 
-
     });
 
-   
-    
-
-
-//inchidere describe
 });
 
 */

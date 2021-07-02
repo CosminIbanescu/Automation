@@ -1,5 +1,5 @@
 
-// prima lectie 
+// first lesson
 /*
 describe('eMag.ro', () => {
  
@@ -14,14 +14,14 @@ describe('eMag.ro', () => {
         helpLink.click();
     });
  
-// in testul de mai sus se testeaza incarcarea paginii
+// above test try a loading page test
 });
  
-// sfarsit prima lectie 
+// end first lesson 
 */
  
 /*
-// a 2 doua lectie 
+// start second lesson
  
 describe ('eMag.ro', () =>  {
  
@@ -49,10 +49,9 @@ describe ('eMag.ro', () =>  {
         await searchButton.click();
  
         await expect(browser).toHaveTitle('Cauți Tricou Polo? Alege din oferta eMAG.ro');
- 
     });
  
 });
  
-// sfarsit a 2 doua lectie 
+// end second lesson 
 */
