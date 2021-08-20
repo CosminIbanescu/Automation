@@ -8,11 +8,11 @@ describe ('Testing evoMag website', async => {
         await expect(browser).toHaveUrl('https://www.evomag.ro/');
     }); 
  
-    it('website should has a certain title', async () => {
+    it('website should have a certain title', async () => {
         await expect(browser).toHaveTitle('evoMAG.ro - Electronice si electrocasnice la un pret bun');
     });         
  
-    it('should appear logo website', async () => {
+    it('should appear website logo', async () => {
         const logoWebsite = await $('#main_logo');
         await expect(logoWebsite).toBeDisplayed();
     });
