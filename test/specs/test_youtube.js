@@ -1,4 +1,6 @@
 /*
+// uncomment
+
 describe ('Testing youtube platform', async => { 
 
     it('should open website and agree conditions', async () => {
@@ -75,3 +77,4 @@ describe ('Testing youtube platform', async => {
 
 
 */
+// uncomment

@@ -1,5 +1,6 @@
-// id cu #, class cu .  , titlu cu $(‘[title=”nume titlu”]’) si atribute:  $(‘[atribut element]’);
 /*
+// uncomment
+
 describe('demoblaze.com', () => {
  
      
@@ -41,4 +42,5 @@ describe('demoblaze.com', () => {
 
 });
 
+// uncomment
 */
