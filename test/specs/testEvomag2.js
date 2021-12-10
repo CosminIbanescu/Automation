@@ -27,12 +27,12 @@ describe ('Testing evoMag website', async => {
         await expect(searchFieldButton).toBeEnabled();
     });
 
-    it('search button input should has attributes', async () => {
+    it('search button input should have attributes', async () => {
         const inputSearchButton = await $('//*[@id="searchString"]');
         await expect(inputSearchButton).toHaveAttribute('autocomplete', 'off');
     });
  
-    it('search button should has a specific id ', async () => {
+    it('search button should have a specific id ', async () => {
         const inputSearchButton = await $('//*[@id="searchString"]');
         await expect(inputSearchButton).toHaveId('searchString');
     }); 
